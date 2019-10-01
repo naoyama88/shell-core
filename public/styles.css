@@ -1,0 +1,438 @@
+
+/* reset css start *************************************************************/
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* reset css end *************************************************************/
+
+p {
+    font-size: 16px;
+}
+p.normal{
+    color: #6e4848;
+    background-color: #4d86f1;
+}
+p.info{
+    color: #721f1f;
+    background-color: #4d8633;
+}
+p.warning{
+    color: #584d4d;
+    background-color: #d19e52;
+}
+p.error{
+    color: #523939;
+    background-color: #da2f2f;
+}
+p.primary{
+    color: black;
+    background-color: #dfe681;
+}
+p.secondary{
+    color: #523d3d;
+    background-color: #4ca366;
+}
+p.thirdary{
+    color: #4b4444;
+    background-color: #4fa34c;
+}
+
+h1 {
+    font-size: 36px;
+}
+h1.normal{
+    color: #6e4848;
+    background-color: #4d86f1;
+}
+h1.info{
+    color: #721f1f;
+    background-color: #4d8633;
+}
+h1.warning{
+    color: #584d4d;
+    background-color: #d19e52;
+}
+h1.error{
+    color: #523939;
+    background-color: #da2f2f;
+}
+h1.primary{
+    color: black;
+    background-color: #dfe681;
+}
+h1.secondary{
+    color: #523d3d;
+    background-color: #4ca366;
+}
+h1.thirdary{
+    color: #4b4444;
+    background-color: #4fa34c;
+}
+
+h2 {
+    font-size: 28px;
+}
+h2.normal{
+    color: #6e4848;
+    background-color: #4d86f1;
+}
+h2.info{
+    color: #721f1f;
+    background-color: #4d8633;
+}
+h2.warning{
+    color: #584d4d;
+    background-color: #d19e52;
+}
+h2.error{
+    color: #523939;
+    background-color: #da2f2f;
+}
+h2.primary{
+    color: black;
+    background-color: #dfe681;
+}
+h2.secondary{
+    color: #523d3d;
+    background-color: #4ca366;
+}
+h2.thirdary{
+    color: #4b4444;
+    background-color: #4fa34c;
+}
+
+h3 {
+    font-size: 24px;
+}
+h3.normal{
+    color: #6e4848;
+    background-color: #4d86f1;
+}
+h3.info{
+    color: #721f1f;
+    background-color: #4d8633;
+}
+h3.warning{
+    color: #584d4d;
+    background-color: #d19e52;
+}
+h3.error{
+    color: #523939;
+    background-color: #da2f2f;
+}
+h3.primary{
+    color: black;
+    background-color: #dfe681;
+}
+h3.secondary{
+    color: #523d3d;
+    background-color: #4ca366;
+}
+h3.thirdary{
+    color: #4b4444;
+    background-color: #4fa34c;
+}
+
+h4 {
+    font-size: 20px;
+}
+h4.normal{
+    color: #6e4848;
+    background-color: #4d86f1;
+}
+h4.info{
+    color: #721f1f;
+    background-color: #4d8633;
+}
+h4.warning{
+    color: #584d4d;
+    background-color: #d19e52;
+}
+h4.error{
+    color: #523939;
+    background-color: #da2f2f;
+}
+h4.primary{
+    color: black;
+    background-color: #dfe681;
+}
+h4.secondary{
+    color: #523d3d;
+    background-color: #4ca366;
+}
+h4.thirdary{
+    color: #4b4444;
+    background-color: #4fa34c;
+}
+
+h5 {
+    font-size: 16px;
+}
+h5.normal{
+    color: #6e4848;
+    background-color: #4d86f1;
+}
+h5.info{
+    color: #721f1f;
+    background-color: #4d8633;
+}
+h5.warning{
+    color: #584d4d;
+    background-color: #d19e52;
+}
+h5.error{
+    color: #523939;
+    background-color: #da2f2f;
+}
+h5.primary{
+    color: black;
+    background-color: #dfe681;
+}
+h5.secondary{
+    color: #523d3d;
+    background-color: #4ca366;
+}
+h5.thirdary{
+    color: #4b4444;
+    background-color: #4fa34c;
+}
+
+button {
+    height: 30px;
+    width: 90px;
+    border-radius: 2px;
+    text-align: center;
+    border: none;
+    box-shadow: 6px 5px 5px grey;
+    margin: 10px 20px;
+}
+button.normal{
+    color: #6e4848;
+    background-color: #4d86f1;
+}
+button.info{
+    color: #721f1f;
+    background-color: #4d8633;
+}
+button.warning{
+    color: #584d4d;
+    background-color: #d19e52;
+}
+button.error{
+    color: #523939;
+    background-color: #da2f2f;
+}
+button.primary{
+    color: black;
+    background-color: #dfe681;
+}
+button.secondary{
+    color: #523d3d;
+    background-color: #4ca366;
+}
+button.thirdary{
+    color: #4b4444;
+    background-color: #4fa34c;
+}
+
+input[type=text], input[type=password] {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    padding: 2px;
+}
+input[type=text].normal{
+    color: #6e4848;
+    background-color: #4d86f1;
+}
+input[type=text].info{
+    color: #721f1f;
+    background-color: #4d8633;
+}
+input[type=text].warning{
+    color: #584d4d;
+    background-color: #d19e52;
+}
+input[type=text].error{
+    color: #523939;
+    background-color: #da2f2f;
+}
+input[type=text].primary{
+    color: black;
+    background-color: #dfe681;
+}
+input[type=text].secondary{
+    color: #523d3d;
+    background-color: #4ca366;
+}
+input[type=text].thirdary{
+    color: #4b4444;
+    background-color: #4fa34c;
+}
+input[type=password].passwordBox{
+    color: black;
+    background-color: red;
+}
+input[type=text].emailBox{
+    color: red;
+    background-color: black;
+}
+
+li {
+    font-size: 16px;
+}
+li.normal{
+    color: #6e4848;
+    background-color: #4d86f1;
+}
+li.info{
+    color: #721f1f;
+    background-color: #4d8633;
+}
+li.warning{
+    color: #584d4d;
+    background-color: #d19e52;
+}
+li.error{
+    color: #523939;
+    background-color: #da2f2f;
+}
+li.primary{
+    color: black;
+    background-color: #dfe681;
+}
+li.secondary{
+    color: #523d3d;
+    background-color: #4ca366;
+}
+li.thirdary{
+    color: #4b4444;
+    background-color: #4fa34c;
+}
